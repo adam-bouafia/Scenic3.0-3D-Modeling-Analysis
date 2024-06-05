@@ -19,11 +19,11 @@ Year: 2023-2024
 
 ### Examples
 - `examples/line_of_sight_orientations.scenic`: Example Scenic code demonstrating basic 3D object placement.
-  ![Line-of-Sight-Based Orientations](presentation/Presentation%203D%20Environment%20Modeling%20for%20Falsification/FIG1.png)
+  ![Line-of-Sight-Based Orientations](Presentation/Presentation%203D%20Environment%20Modeling%20for%20Falsification/FIG1.png)
 - `examples/placing_chair_on_floor.scenic`: Example Scenic code demonstrating how to place a chair on a floor.
-  ![Placing a Chair on a Floor](presentation/Presentation%203D%20Environment%20Modeling%20for%20Falsification/FIG2.png)
+  ![Placing a Chair on a Floor](Presentation/Presentation%203D%20Environment%20Modeling%20for%20Falsification/FIG2.png)
 - `examples/complex_placements.scenic`: Example Scenic code for handling complex object placements.
-  ![Handling Complex Placements](presentation/Presentation%203D%20Environment%20Modeling%20for%20Falsification/FIG3.png)
+  ![Handling Complex Placements](Presentation/Presentation%203D%20Environment%20Modeling%20for%20Falsification/FIG3.png)
 - `examples/README.md`: Descriptions and usage instructions for the example code.
 
 
