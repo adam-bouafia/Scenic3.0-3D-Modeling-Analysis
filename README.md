@@ -1,4 +1,4 @@
-# Scenic3.0 Presentation
+# 3D Environment Modeling for Falsification and Beyond with Scenic 3.0
 
 This repository contains the LaTeX source files, the final presentation PDF, and example code for the talk "3D Environment Modeling for Falsification and Beyond with Scenic 3.0" by Adam Bouafia, presented at the University of L'Aquila under the supervision of Professor Igor Melatti.
 
