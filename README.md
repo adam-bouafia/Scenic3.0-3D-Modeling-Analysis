@@ -30,6 +30,19 @@ Year: 2023-2024
 )
 - `examples/README.md`: Descriptions and usage instructions for the example code.
 
+## Summary
+- **Introduction:** Discusses the challenges of designing CPS, the need for formal models, and how Scenic addresses these challenges.
+- **Scenic 3.0 vs. Other Tools:** Compares Scenic to rule/grammar-based tools, probabilistic programming languages, and ML-based scene generation tools, highlighting its unique advantages.
+- **Limitations of Scenic 2.0:** Explains the limitations of Scenic 2.0, such as restriction to 2D environments and the use of bounding boxes.
+- **Need for 3D in Scenic 3.0:** Justifies the need for 3D modeling, including real-world complexity, perception challenges, and verification needs.
+- **Key Innovations in Scenic 3.0:** Covers new features like 3D geometry, mesh shapes and regions, precise visibility, temporal requirements, and a rewritten parser.
+- **Case Studies:** Presents two case studies on robot vacuum falsification and constrained data generation for an autonomous vehicle.
+- **Impact on Formal Methods:** Discusses how Scenic 3.0 extends the scope of formal verification and analysis.
+- **Broader Applications:** Describes the broader applications of Scenic 3.0 in training data generation, scenario-based testing, and simulation.
+- **Conclusion:** Summarizes the key contributions of Scenic 3.0.
+- **Future Directions:** Outlines future directions for Scenic 3.0.
+
+- 
 ## Usage
 
 ### Viewing the Presentation
