@@ -19,27 +19,17 @@ Year: 2023-2024
 
 ### Examples
 - `examples/line_of_sight_orientations.scenic`: Example Scenic code demonstrating basic 3D object placement.
-  ![Line-of-Sight-Based Orientations](Presentation/Presentation%203D%20Environment%20Modeling%20for%20Falsification/FIG1.png)
+
 - `examples/placing_chair_on_floor.scenic`: Example Scenic code demonstrating how to place a chair on a floor.
-  ![Placing a Chair on a Floor](Presentation/Presentation%203D%20Environment%20Modeling%20for%20Falsification/FIG2.png)
+
 - `examples/complex_placements.scenic`: Example Scenic code for handling complex object placements.
-  ![Handling Complex Placements](Presentation/Presentation%203D%20Environment%20Modeling%20for%20Falsification/FIG3.png)
+
 - `examples/README.md`: Descriptions and usage instructions for the example code.
 
 
-## Summary
-- **Introduction:** Discusses the challenges of designing CPS, the need for formal models, and how Scenic addresses these challenges.
-- **Scenic 3.0 vs. Other Tools:** Compares Scenic to rule/grammar-based tools, probabilistic programming languages, and ML-based scene generation tools, highlighting its unique advantages.
-- **Limitations of Scenic 2.0:** Explains the limitations of Scenic 2.0, such as restriction to 2D environments and the use of bounding boxes.
-- **Need for 3D in Scenic 3.0:** Justifies the need for 3D modeling, including real-world complexity, perception challenges, and verification needs.
-- **Key Innovations in Scenic 3.0:** Covers new features like 3D geometry, mesh shapes and regions, precise visibility, temporal requirements, and a rewritten parser.
-- **Case Studies:** Presents two case studies on robot vacuum falsification and constrained data generation for an autonomous vehicle.
-- **Impact on Formal Methods:** Discusses how Scenic 3.0 extends the scope of formal verification and analysis.
-- **Broader Applications:** Describes the broader applications of Scenic 3.0 in training data generation, scenario-based testing, and simulation.
-- **Conclusion:** Summarizes the key contributions of Scenic 3.0.
-- **Future Directions:** Outlines future directions for Scenic 3.0.
+)
+- `examples/README.md`: Descriptions and usage instructions for the example code.
 
-- 
 ## Usage
 
 ### Viewing the Presentation
@@ -61,18 +51,25 @@ To run the example Scenic code, navigate to the `examples` directory and run the
 - **Usage**: Run the following command to generate the scenario:
 scenic line_of_sight_orientations.scenic
 
+  ![Line-of-Sight-Based Orientations](Presentation/Presentation%203D%20Environment%20Modeling%20for%20Falsification/FIG1.png)
+
 ### Example 2: Placing a Chair on a Floor
 - **File**: `placing_chair_on_floor.scenic`
 - **Description**: Shows how to place a chair on a floor in Scenic.
 - **Usage**: Run the following command to generate the scenario:
 scenic placing_chair_on_floor.scenic
 
+  ![Placing a Chair on a Floor](Presentation/Presentation%203D%20Environment%20Modeling%20for%20Falsification/FIG2.png)
+
+  
 ### Example 3: Handling Complex Placements
 - **File**: `complex_placements.scenic`
 - **Description**: Demonstrates complex object placements in Scenic.
 - **Usage**: Run the following command to generate the scenario:
 scenic complex_placements.scenic
 
+  ![Handling Complex Placements](Presentation/Presentation%203D%20Environment%20Modeling%20for%20Falsification/FIG3.png)
+  
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 """
