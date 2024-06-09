@@ -24,6 +24,10 @@ Year: 2023-2024
 
 - `examples/complex_placements.scenic`: Example Scenic code for handling complex object placements.
 
+- `examples/vacuum.scenic`: Example Scenic code demonstrating a vacuum robot scenario.
+
+- `examples/City_Intersection_with_Aerial_Surveillance.scenic`: Example Scenic code for a city intersection scenario with aerial surveillance.
+
 - `examples/README.md`: Descriptions and usage instructions for the example code.
 
 
@@ -74,14 +78,32 @@ scenic placing_chair_on_floor.scenic
 
   ![Placing a Chair on a Floor](Presentation/Presentation%203D%20Environment%20Modeling%20for%20Falsification/FIG2.png)
 
-  
 ### Example 3: Handling Complex Placements
 - **File**: `complex_placements.scenic`
 - **Description**: Demonstrates complex object placements in Scenic.
 - **Usage**: Run the following command to generate the scenario:
-scenic complex_placements.scenic
+scenic complex_placements.scenic  
 
   ![Handling Complex Placements](Presentation/Presentation%203D%20Environment%20Modeling%20for%20Falsification/FIG3.png)
+
+### Example 4: Vacuum Robot Scenario
+- **File**: `vacuum.scenic`
+- **Description**: Demonstrates a scenario with a vacuum robot in Scenic.
+- **Usage**: Run the following command to generate the scenario:
+scenic vacuum.scenic
+
+  ![Vacuum Robot Scenario](Presentation/Presentation%203D%20Environment%20Modeling%20for%20Falsification/FIG4.png)
+
+### Example 5: City Intersection with Aerial Surveillance
+- **File**: `City_Intersection_with_Aerial_Surveillance.scenic`
+- **Description**: Demonstrates a city intersection scenario with aerial surveillance in Scenic.
+- **Usage**: Run the following command to generate the scenario:
+scenic City_Intersection_with_Aerial_Surveillance.scenic
+
+  ![City Intersection with Aerial Surveillance](Presentation/Presentation%203D%20Environment%20Modeling%20for%20Falsification/City_Intersection_with_Aerial_Surveillance.png)
+
+
+
   
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
