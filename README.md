@@ -103,8 +103,26 @@ scenic City_Intersection_with_Aerial_Surveillance.scenic
   ![City Intersection with Aerial Surveillance](Presentation/Presentation%203D%20Environment%20Modeling%20for%20Falsification/City_Intersection_with_Aerial_Surveillance.png)
 
 
+## Docker Usage
 
-  
+### Building the Docker Image
+To build the Docker image, navigate to the root directory of the project (where the `Dockerfile` is located) and run the following command:
+
+```sh
+docker build -t scenic-examples .
+```
+
+###  Running Examples with Docker
+To run an example using Docker, use the following command:
+```sh
+docker run --rm -e EXAMPLE_FILE=example.scenic scenic-examples
+```
+Replace example.scenic with the name of the example file you want to run. For instance, to run the line_of_sight_orientations.scenic example, use:
+```sh
+docker run --rm -e EXAMPLE_FILE=line_of_sight_orientations.scenic scenic-examples
+```
+
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 """
